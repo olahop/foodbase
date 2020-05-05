@@ -1,0 +1,29 @@
+.table-body-wrapper {
+    height: 50vh;
+    overflow: auto;
+    border: none;
+    display: block;
+}
+
+.table-body, .table-body-wrapper {
+    display:block;
+    overflow-y: auto;
+}
+
+@media (max-height: 500px) {
+    .table-body-wrapper {
+        max-height: 200px;
+    }
+}
+
+@media (max-height: 450px) {
+    .table-body-wrapper {
+        max-height: 150px;
+    }
+}
+
+@media (max-height: 400px) {
+    .table-body-wrapper {
+        max-height: 100px;
+    }
+}

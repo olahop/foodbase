@@ -1,0 +1,79 @@
+.graphHeader {
+    padding: 50px 0px 0px 0px;
+    font-weight: 200;
+    font-size: 5vh;
+    color: white;
+}
+
+.modalContainer{
+    padding: 20px 100px;
+}
+
+.scatterPlot {
+    width: 100%;
+}
+
+.plotContainer{
+    flex:1;
+}
+
+.axisSelection{
+    flex:1;
+}
+
+.xSelector {
+    padding: 15px;
+}
+
+.selectorHeader {
+    padding: 10px;
+    color: white;
+    font-weight: 200;
+    font-size: 2vh;
+}
+
+.select {
+    width: 25%;
+    max-width: 200px;
+    min-width: 150px;
+    margin: auto;
+}
+
+@media (min-width: 840px) {
+    .modalContainer {
+        display:flex;
+    }
+}
+
+
+
+@media (max-width: 1050px) {
+    .scatterPlot {
+        width: 70vh;
+    }
+} 
+
+@media (max-width: 840px) {
+    .scatterPlot {
+        width: 50vh;
+        height: 40vh;
+    }
+    .axisSelection {
+        display: flex;
+        justify-content: center;
+    }
+    .xSelector {
+        padding: 0px;
+    }
+}
+
+
+@media (max-height: 600px) {
+    .scatterPlot {
+        width: 80vh;
+        height: 50vh;
+    }
+    .modalContainer {
+        display: flex;
+    }
+}

@@ -1,0 +1,21 @@
+Th {
+    font-weight: 1200;
+    color: white;
+    text-align: left;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: white;
+    padding: 10px 0 10px 0;
+    width: 25%;
+    display: block;
+    cursor: pointer;
+}
+
+Thead Tr{
+    width: 100%;
+    display: flex;
+}
+
+Thead{
+    display: flex;
+}

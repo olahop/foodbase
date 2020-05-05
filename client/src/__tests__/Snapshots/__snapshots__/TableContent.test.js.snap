@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test App component Component renders correctly 1`] = `
+<div
+  className="table-body-wrapper"
+  onScroll={[Function]}
+>
+  <tbody
+    className="table-body"
+  />
+</div>
+`;

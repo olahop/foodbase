@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Search component Component renders correctly 1`] = `
+<div
+  className="wrap"
+>
+  <div
+    className="search"
+  >
+    <input
+      className="searchTerm"
+      onChange={[Function]}
+      placeholder="Søk etter matvare..."
+    />
+    <button
+      className="searchButton"
+      type="submit"
+    >
+      <i
+        className="fa fa-search"
+      />
+    </button>
+  </div>
+</div>
+`;

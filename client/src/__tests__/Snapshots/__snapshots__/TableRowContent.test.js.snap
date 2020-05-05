@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableRowContent Snapshot test 1`] = `
+Array [
+  <tr
+    className="row"
+    onClick={[Function]}
+    style={Object {}}
+  >
+    <td
+      className=" pivoted"
+    >
+      <div
+        className="tdBefore"
+      />
+      <div>
+         
+      </div>
+    </td>
+    <td
+      className=" pivoted"
+    >
+      <div
+        className="tdBefore"
+      />
+      0
+    </td>
+    <td
+      className=" pivoted"
+    >
+      <div
+        className="tdBefore"
+      />
+      0
+    </td>
+    <td
+      className=" pivoted"
+    >
+      <div
+        className="tdBefore"
+      />
+      0
+    </td>
+    
+  </tr>,
+  "",
+]
+`;

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test App component Component renders correctly 1`] = `
+<thead>
+  <tr>
+    <th
+      className="header-option"
+      onClick={[Function]}
+      value="Name"
+    >
+      Name 
+      
+    </th>
+    <th
+      className="header-option"
+      onClick={[Function]}
+      value="Fat"
+    >
+      Fat (g) 
+      
+    </th>
+    <th
+      className="header-option"
+      onClick={[Function]}
+      value="Carbohydrates"
+    >
+      Carbs (g) 
+      
+    </th>
+    <th
+      className="header-option"
+      onClick={[Function]}
+      value="Protein"
+    >
+      Protein (g) 
+      
+    </th>
+  </tr>
+</thead>
+`;

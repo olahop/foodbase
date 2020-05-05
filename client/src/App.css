@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    background-image: url(./img/apricot-background-blossom-1028598.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-position: center center;
+    top: 0;
+    bottom: 0;
+}
+
+.overlay {
+    background-color: rgb(0,0,0,0.4);
+    background-size:cover;
+    height: 100vh;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.responsiveTable{
+    width: 100%!important;
+    margin: auto;
+}
+
+.site-header {
+    font-size: 7vh;
+    font-weight: 100;
+    color: white;
+}
+
+.table-choice-container {
+    justify-content: center;
+    display:flex;
+    width: 20%;
+    margin: auto;
+    padding: 10px 0 20px 0;
+}
+
+.filter-select-container {
+    flex: 1;
+    padding: 0 0 5px 0;
+}
+
+.graphic-button-container {
+    flex: 1;
+}
+
+.table {
+    background-color: rgb(0,0,0,0.4);
+}
+
+.table-container{
+    width: 80%;
+    margin: auto;
+}
+
+.table-content {
+    padding: 50px 0 0 0;
+}
+
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+}
+
+.info-text {
+    color: white;
+    font-size: .7em;
+}
